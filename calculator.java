@@ -18,7 +18,7 @@ public class calculator
 		          break;
 		case '/': System.out.println(a/b);
 		          break;
-		default : System.out.println("invalid input);
+		default : System.out.println("invalid input");
 		          break;
 	    }
 
