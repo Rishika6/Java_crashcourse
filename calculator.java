@@ -8,7 +8,6 @@ public class calculator
 		int a=40;
 		int b=20;
 		char var='/';
-		System.out.println("enter the operation");
 		switch(var)
 		{ 
 		case '+': System.out.println(a+b);
@@ -18,6 +17,8 @@ public class calculator
 		case '*': System.out.println(a*b);
 		          break;
 		case '/': System.out.println(a/b);
+		          break;
+		default : System.out.println("invalid input);
 		          break;
 	    }
 
