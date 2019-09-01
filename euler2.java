@@ -15,7 +15,7 @@ public class euler2
 				sum=sum+n3;
 			}
 		}while(n3<=4000000);
-		System.out.println(sum);
+		System.out.println(sum+2);
 	}
 
 }
